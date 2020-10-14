@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>เเบบฟอร์มสมัครสมาชิก</title>
+</head>
+<body>
+
+	<form action="memberdata5.php" method="post">
+
+		<strong><u>เเบบฟอร์มรับสมัครชิก</u></strong>
+		<p>UserName: <input type="text" name="username">
+		<p>Password: <input type="password" name="password">
+		<p>ชื่อ-นามสกุล: <input type="text" name="name"><p>
+		<p>เพศ: <input type="radio" name="sex" value="1">ชาย
+				<input type="radio" name="sex" value="0">หญิง
+		<p>ระดับการศึกษา
+			<select name="education">
+				<option value="1">ต่ำกว่า ป.ตรี</option>
+				<option value="2">ป.ตรี</option>
+				<option value="3">ป.โท</option>
+				<option value="4">ป.เอก</option>
+			</select>	
+		<p>ทราบเว็บไซต์จาก : 
+			<input type="checkbox" name="source1" value="1">เพื่อน
+			<input type="checkbox" name="source2" value="2">Search Engine
+			<input type="checkbox" name="source3" value="3">โฆษณา
+		<p>คำเเนะนำ:</p>
+		<textarea name="comment" cols="30" rows="10"></textarea>
+		<p><input type="submit" name="Submit" value="ตกลง">
+		<input type="reset" name="Submit2" value="ยกเลิก">
+		
+	</form>
+</body>
+</html>
+
+
